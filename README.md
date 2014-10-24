@@ -19,6 +19,7 @@ repository
 
 ## Running
 
+* `cd ember-workshop/frontend`
 * `ember server`
 * Visit your app at http://localhost:4200.
 
