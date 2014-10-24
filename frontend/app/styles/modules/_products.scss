@@ -6,4 +6,8 @@
   @include make-sm-column(4);
   @include make-md-column(4);
   @include make-lg-column(4);
+
+  h4 {
+    @include truncate;
+  }
 }
