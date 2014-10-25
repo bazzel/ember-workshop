@@ -13,8 +13,8 @@
 
     <div class='products'>
       {{#each}}
-        <div class='product'>
-          <div class='thumbnail'>
+      <div class='product'>
+        <div {{bind-attr class=':thumbnail isDirty'}}>
             <img {{bind-attr src=image}}>
             <div class='caption'>
               <h4 class='pull-right'>${{price}}</h4>
