@@ -13,6 +13,9 @@ export default Ember.ObjectController.extend({
       this.model.save().then(function() {
         _this.set('isEditing', false);
       });
+    },
+    removeImage: function() {
+      this.set('image', null);
     }
   }
 });
