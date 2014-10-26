@@ -12,7 +12,7 @@
     {{partial 'carousel'}}
 
     <div class='products'>
-      {{#each}}
+      {{#each filteredContent}}
       <div class='product'>
         <div {{bind-attr class=':thumbnail isDirty'}}>
             <img {{bind-attr src=image}}>
