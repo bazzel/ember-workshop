@@ -1,5 +1,6 @@
 class Api::ProductsController < ApplicationController
   def index
+    sleep 1
     render json: Product.all
   end
 
