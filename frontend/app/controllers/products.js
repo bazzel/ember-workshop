@@ -12,5 +12,5 @@ export default Ember.ArrayController.extend({
       return search.test(str);
     });
     return products;
-  }.property('@each.title', '@each.description', 'search')
+  }.property('@each.isDirty', 'search')
 });
