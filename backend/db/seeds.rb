@@ -5,7 +5,7 @@ CATEGORIES = %w(abstract animals business cats city food nightlife fashion peopl
 
 Product.destroy_all
 
-100.times do
+15.times do
   Product.create do |product|
     product.title       = Faker::Commerce.product_name
     product.description = Faker::Lorem.paragraph
