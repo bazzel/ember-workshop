@@ -25,5 +25,6 @@ var app = new EmberApp();
 // along with the exports of each module as its value.
 
 app.import('bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js');
+app.import('bower_components/moment/moment.js');
 
 module.exports = mergeTrees([app.toTree(), extraAssets]);
