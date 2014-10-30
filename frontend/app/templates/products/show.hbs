@@ -4,6 +4,7 @@
   <div class='caption-full'>
     <h4 class='pull-right'>${{price}}</h4>
     <h4><a href='#'>{{title}}</a></h4>
+    <p class='badge'>{{categoryName}}</p>
     <p>{{description}}</p>
     <button {{action 'toggleEditing'}} type='button' class='edit'>Edit</button>
   </div>
@@ -49,6 +50,10 @@
 
   <div class='form-group'>
     {{input value=price class='form-control' type='number' placeholder='Enter a price'}}
+  </div>
+
+  <div class='form-group'>
+    {{view 'select' content=categories optionValuePath='content.id' optionLabelPath='content.name' value=category.id class='form-control'}}
   </div>
 
   <div class='form-group'>

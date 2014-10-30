@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.ObjectController.extend({
+  needs: ['application'],
+  categories: Ember.computed.alias('controllers.application.categories'),
   isEditing: false,
   actions: {
     toggleEditing: function() {
