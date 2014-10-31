@@ -2,6 +2,8 @@
 
 This is a sample application used during a Kabisa workshop to demonstrate Ember.js.
 
+Please consult the wiki for further instructions.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
