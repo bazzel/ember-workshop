@@ -27,7 +27,7 @@ end
     product.image       = 'data:image/jpeg;base64,' + Base64.encode64(open(url) { |io| io.read })
     rand(1..10).times do
       product.reviews << Review.new.tap do |review|
-        review.description = Faker::Lorem.paragraph
+        review.description = Faker::Lorem.paragraph(1)
         review.rating      = rand(0..5)
         review.user        = Faker::Name.name
         review.created_at  = rand(1..10).days.ago
