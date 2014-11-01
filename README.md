@@ -4,6 +4,9 @@ This is a sample application used during a Kabisa workshop to demonstrate Ember.
 
 Please consult the wiki for further instructions.
 
+## Demo
+Please take a look at our live [demo](http://kabisa-ember-workshop.herokuapp.com/).
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
