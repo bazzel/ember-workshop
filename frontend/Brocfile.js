@@ -26,5 +26,6 @@ var app = new EmberApp();
 
 app.import('bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js');
 app.import('bower_components/moment/moment.js');
+app.import('bower_components/github-fork-ribbon-css/gh-fork-ribbon.css');
 
 module.exports = mergeTrees([app.toTree(), extraAssets]);
