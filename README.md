@@ -13,6 +13,9 @@ You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
+* `npm install -g ember-cli`
+* `npm install -g bower`
+* `npm install -g phantomjs`
 
 ## Installation
 
@@ -25,7 +28,7 @@ repository
 ## Running
 
 * `cd ember-workshop/frontend`
-* `ember server`
+* `ember server --proxy=http://localhost:3000`
 * Visit your app at http://localhost:4200.
 
 
