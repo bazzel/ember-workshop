@@ -2,7 +2,7 @@
 
 This is a sample application used during a Kabisa workshop to demonstrate Ember.js.
 
-Please consult the wiki for further instructions.
+Please consult the [wiki](https://github.com/bazzel/ember-workshop/wiki) for further instructions.
 
 ## Demo
 Please take a look at our live [demo](http://kabisa-ember-workshop.herokuapp.com/).
