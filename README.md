@@ -1,5 +1,7 @@
 # Kabisa Ember.js workshop
 
+> This workshop has been updated to Ember 2 and is available as a [seperate repository](https://github.com/bazzel/ember2-workshop/wiki).
+
 This is a sample application used during a Kabisa workshop to demonstrate Ember.js.
 
 Please consult the [wiki](https://github.com/bazzel/ember-workshop/wiki) for further instructions.
