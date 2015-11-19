@@ -9,5 +9,14 @@ export default DS.Model.extend({
   category: DS.belongsTo('category'),
   categoryName: function() {
     return this.get('category.name');
-  }.property('category')
+  }.property('category'),
+  averageRating: function() {
+    var reviews = this.get('reviews');
+    var ratings = reviews.mapBy('rating');
+    var average = 0;
+    ratings.forEach(function(val){
+      average = average + val;
+    });
+    return Math.round(average / ratings.length);
+  }.property('reviews.@each.rating')
 });
